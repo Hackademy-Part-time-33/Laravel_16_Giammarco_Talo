@@ -1,0 +1,44 @@
+@import 'bootstrap';
+
+.link_genre {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link_genre:hover {
+    color: rgb(0, 120, 139);
+    text-decoration: underline;
+}
+
+.div_genre {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section_genre {
+    padding: 1rem 1.5rem;
+    border-left: 1px solid #ff4c4c;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.section_genre:hover {
+    background-color: #ffebeb;
+}
+
+.title_font{
+    font-family: "Bangers", system-ui;
+    font-size: 30px;
+    color: white;
+}
+
+.nav_font{
+    font-family: "Bangers", system-ui;
+    font-size: 20px;
+    color: white;
+}
+
+.logo{
+    width: 80px;
+}
